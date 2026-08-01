@@ -79,7 +79,7 @@ RNN's theoretical computation graph.
 
 ## Recurrent Layer
 
-A is defined by the following equations: 
+A **recurrent layer** is defined by the following equations: 
 $$\begin{aligned}
     \mathbf{h}_t &= f(\mathbf{h}_{t-1}, \mathbf{x}_{\texttt{in}}[t]) &\triangleleft \quad\quad \text{update state based on input and previous state}\\
     \mathbf{x}_{\texttt{out}}[t]&= g(\mathbf{h}_t) &\triangleleft \quad\quad \text{produce output based on state}
